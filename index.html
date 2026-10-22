@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <title>Blog Tecnologia (bootstrap)</title>
+    <title>Blog Tecnologia</title>
 </head>
 
 <body>
@@ -120,74 +119,80 @@
             </form>
         </section>
 
-    <footer class="footer bg-dark text-light border-top border-3 border-secondary py-5 px-4"><!-- clase antigua: footer  -->
-  <div class="container">
-    <!-- contenedor agregado con Bootstrap --><!-- Imagen ancho completo del footer -->
-    <img src="images/abstract.avif" alt="abstract blue technology" class="img-fluid w-100 mb-4" style="max-height: 300px; object-fit: cover; border-radius: 12px;">
-    
-
-    <!-- Quiénes somos -->
-    <div class="text-center mb-5"> <!-- texto centrado con Bootstrap -->
-      <h2 class="mb-3">
-        <!-- clase antigua: h2  -->
-        Quiénes somos
-      </h2>
-      <p class="mb-0">
-        <!-- clase antigua: p  -->
-        Somos estudiantes del bootcamp Generation Colombia. Creamos este sitio para ayudar a divulgar blogs y noticias de TI de forma clara y accesible.
-      </p>
-    </div>
-
-    <!-- Equipo de Desarrollo -->
-    <h2 class="text-center mb-4">
-      <!-- clase antigua: h2  -->
-      Equipo de Desarrollo:
-    </h2>
-    <ul class="list-unstyled row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
-      <!-- clase antigua: ul -->
-      <li class="col"><!-- clase antigua: li-->
-        <div class="bg-body-secondary border border-secondary rounded-3 p-4 h-100 d-flex flex-column">
-          <p class="fw-bold mb-2">
-            <!-- clase antigua: p -->
-            Andres Florez
-          </p>
-          <p class="small text-muted mb-2">
-            <!-- clase antigua: p (correo)  -->
-            Correo: <a href="mailto:ejemplo@correo.com" class="text-light text-decoration-none">ejemplo@correo.com</a>
-          </p>
-          <p class="small text-muted mb-0">
-            <!-- clase antigua: p (tel)  -->
-            Tel: <a href="https://wa.me/573001234567" target="_blank" rel="noopener noreferrer" class="text-light text-decoration-none">573001234567</a>
-          </p>
+        <article class="blogArticle">
+          <img src="" alt="Describir imagen" />
+          <h3>Titulo del articulo</h3>
+          <p>Parrafo introductorio al articulo</p>
+          <a href="">Leer articulo</a>
+        </article>
+      </section>
+      <section class="servicios">
+        <h2>Servicios</h2>
+        <div class="tarjetas">
+          <article class="tarjeta">
+            <h3>Artículos</h3>
+            <p>Noticias y novedades del mundo de la tecnología.</p>
+          </article>
+          <article class="tarjeta">
+            <h3>Guías</h3>
+            <p>Tutoriales paso a paso para principiantes.</p>
+          </article>
+          <article class="tarjeta">
+            <h3>Reseñas</h3>
+            <p>Opiniones sobre apps y dispositivos.</p>
+          </article>
+          <article class="tarjeta">
+            <h3>Consejos</h3>
+            <p>Buenas prácticas para el día a día digital.</p>
+          </article>
         </div>
-      </li>
-      <li class="col">
-        <!-- clase antigua: li -->
-        <div class="bg-body-secondary border border-secondary rounded-3 p-4 h-100 d-flex flex-column">
-          <p class="fw-bold mb-2">Valentina Bucuru</p>
-          <p class="small text-muted mb-2">Correo: <a href="mailto:ejemplo@correo.com" class="text-light text-decoration-none">ejemplo@correo.com</a></p>
-          <p class="small text-muted mb-0">Tel: <a href="https://wa.me/573001234567" target="_blank" rel="noopener noreferrer" class="text-light text-decoration-none">573001234567</a></p>
-        </div>
-      </li>
-      <li class="col">
-        <!-- clase antigua: li  -->
-        <div class="bg-body-secondary border border-secondary rounded-3 p-4 h-100 d-flex flex-column">
-          <p class="fw-bold mb-2">Juan Acevedo</p>
-          <p class="small text-muted mb-2">Correo: <a href="mailto:ejemplo@correo.com" class="text-light text-decoration-none">ejemplo@correo.com</a></p>
-          <p class="small text-muted mb-0">Tel: <a href="https://wa.me/573001234567" target="_blank" rel="noopener noreferrer" class="text-light text-decoration-none">573001234567</a></p>
-        </div>
-      </li>
-      <li class="col">
-        <!-- clase antigua: li  -->
-        <div class="bg-body-secondary border border-secondary rounded-3 p-4 h-100 d-flex flex-column">
-          <p class="fw-bold mb-2">Mauro Infante</p>
-          <p class="small text-muted mb-2">Correo: <a href="mailto:ejemplo@correo.com" class="text-light text-decoration-none">ejemplo@correo.com</a></p>
-          <p class="small text-muted mb-0">Tel: <a href="https://wa.me/573001234567" target="_blank" rel="noopener noreferrer" class="text-light text-decoration-none">573001234567</a></p>
-        </div>
-      </li>
-    </ul>
-  </div>
-</footer>
+      </section>
+    </main>
+    <footer class="footer">
+        <h2>Quiénes somos</h2>
+        <p>
+            Somos estudiantes del bootcamp Generation Colombia. Creamos este sitio para ayudar a divulgar blogs y noticias de TI de forma clara y accesible.
+        </p>
+        <h2>Equipo de Desarrollo:</h2>
+        <ul>
+            <li>
+                <p>Andres Florez</p>
+                <p>
+                    Correo: <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a>
+                </p>
+                <p>
+                    Tel: <a href="https://wa.me/573001234567" target="_blank" rel="noopener noreferrer"> 573001234567</a>
+                </p>
+            </li>
+            <li>
+                <p>Valentina Bucuru</p>
+                <p>
+                    Correo: <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a>
+                </p>
+                <p>
+                    Tel: <a href="https://wa.me/573001234567" target="_blank" rel="noopener noreferrer"> 573001234567</a>
+                </p>
+            </li>
+            <li>
+                <p>Juan Acevedo</p>
+                <p>
+                    Correo: <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a>
+                </p>
+                <p>
+                    Tel: <a href="https://wa.me/573001234567" target="_blank" rel="noopener noreferrer"> 573001234567</a>
+                </p>
+            </li>
+            <li>
+                <p>Mauro infante</p>
+                <p>
+                    Correo: <a href="mailto:ejemplo@correo.com">ejemplo@correo.com</a>
+                </p>
+                <p>
+                    Tel: <a href="https://wa.me/573001234567" target="_blank" rel="noopener noreferrer"> 573001234567</a>
+                </p>
+            </li>
+        </ul>
+    </footer>
 </body>
 
 </html>
